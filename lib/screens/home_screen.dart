@@ -143,18 +143,18 @@ class _BankingAppScreenState extends State<BankingAppScreen> {
           )
         ],
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: 0,
-        selectedItemColor: Colors.blue,
-        unselectedItemColor: Colors.grey,
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: ""),
-          BottomNavigationBarItem(icon: Icon(Icons.receipt), label: ""),
-          BottomNavigationBarItem(icon: Icon(Icons.bar_chart), label: ""),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: ""),
-          BottomNavigationBarItem(icon: Icon(Icons.settings), label: ""),
-        ],
-      ),
+      // bottomNavigationBar: BottomNavigationBar(
+      //   currentIndex: 0,
+      //   selectedItemColor: Colors.blue,
+      //   unselectedItemColor: Colors.grey,
+      //   items: const [
+      //     BottomNavigationBarItem(icon: Icon(Icons.home), label: ""),
+      //     BottomNavigationBarItem(icon: Icon(Icons.receipt), label: ""),
+      //     BottomNavigationBarItem(icon: Icon(Icons.bar_chart), label: ""),
+      //     BottomNavigationBarItem(icon: Icon(Icons.person), label: ""),
+      //     BottomNavigationBarItem(icon: Icon(Icons.settings), label: ""),
+      //   ],
+      // ),
     );
   }
 

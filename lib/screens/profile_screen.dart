@@ -8,6 +8,7 @@ class ProfileScreen extends StatelessWidget {
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         title: const Text('Profile'),
         foregroundColor: Colors.white,
         centerTitle: true,
